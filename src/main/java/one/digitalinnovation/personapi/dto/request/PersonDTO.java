@@ -22,7 +22,7 @@ public class PersonDTO {
 
     @NotEmpty
     @Size(min = 2, max = 100)
-    private String firstname;
+    private String firstName;
 
     @NotEmpty
     @Size(min = 2, max = 100)
